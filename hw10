@@ -1,0 +1,8 @@
+matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+function matrixSum(matrix){
+    for(arr=0;arr<= matrix.length;arr++){
+        arr.reduce((a,b) => a+b,0)
+    }
+    return matrix;
+}
+console.log(matrixSum(matrix));
